@@ -76,7 +76,7 @@ const handleSubmit = async(e) => {
   loader(messageDiv);
   //fetch data from server -> bot's response
 
-  const response = await fetch('https://s-gpt-ql1j.onrender.com/',{
+  const response = await fetch('https://s-gpt-ql1j.onrender.com',{
     method:'POST',
     headers: {
       'Content-Type': 'application/json'
